@@ -1,0 +1,34 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    min-height: 100vh;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+      Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    background-color: #fff;
+    color: #212121;
+  }
+  #myBtn{
+    width: 200px;
+    height: 200px;
+    background-color: #ff0000;
+border: none;
+border-radius: 50%;
+color: white;
+  }
+  #myVideo{
+    background-color: teal;
+    margin-bottom: 50px;
+  }
