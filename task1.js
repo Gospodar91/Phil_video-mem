@@ -5,7 +5,7 @@ const btn=document.getElementById('myBtn')
 
  const onClick=(e)=>{
      play.play()
-     btn.removeEventListener()
+     btn.removeEventListener('click',onClick)
  }
  btn.addEventListener('click',onClick)
  
