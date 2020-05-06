@@ -30,6 +30,11 @@ border-radius: 50%;
 color: white;
   }
   #myVideo{
-    background-color: teal;
+    margin-top: 50px;
+    width: 700px;
+    height: 50vh;
     margin-bottom: 50px;
   }
+
+
+  
